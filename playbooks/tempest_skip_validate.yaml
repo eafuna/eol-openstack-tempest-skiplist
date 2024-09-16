@@ -1,0 +1,5 @@
+---
+- hosts: all
+  roles:
+    - validate_yaml
+    - list_skipped
